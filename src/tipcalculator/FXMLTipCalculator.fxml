@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns:fx="http://javafx.com/fxml/1" fx:controller="tipcalculator.TipCalculatorController">
+    <children>
+  <Label text="Bill Amount:" />
+  <TextField fx:id="txtBillAmt" />
+  <Label text="Tip %:" />
+  <TextField fx:id="txtTipPercent" />
+  <Button fx:id="btnCalc" text="Calculate Tip" onAction="#calcTip" />
+  <Button fx:id="btnClear" text="Clear" onAction="#clear" />
+  <Button fx:id="btnExit" text="Exit" onAction="#exit" />
+  <Label fx:id="lblTipAmount" />
+</children>
+</VBox>
+
